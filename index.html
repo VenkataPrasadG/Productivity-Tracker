@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button{cursor: pointer;}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel = "stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <button class="toggle" id="toggle-mode">🌙Dark Mode</button>
+    </div>
+    <h1><b>Productivity Tracker</b></h1><br>
+    <div class="To-Do-Section">      
+    <h2><b>To-Do List</b></h2>
+    <input type="text" id="Task-input" placeholder="Type a Task">
+    <button id="Add-Task">Add Task</button>
+    <ul id ="Task-List">
+    </ul>
+    </div>
+
+    <div class="Promodo-section">
+        <h2><b>Promodoro Timer</b></h2>
+        <label for="custom-time">Set Timer :</label>
+        <input type="number" id="custom-time" min="1" placeholder="Enter minutes">
+        <button id="set-time">Apply</button>
+        <div id ="Timer-Display"></div></br>
+        <button id ="Start">Start</button>
+        <button id ="Pause">Pause</button>
+        <button id = "Stop">Reset</button>
+    </div>
+   <script src="script.js" ></script> 
+</body>
+</html>

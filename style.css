@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    text-align:center;
+    padding :20px;
+
+}
+input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    border: 1px solid #ccc;
+    background: white;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+body.toggle li {
+    border: 1px solid #444;
+    background: white;
+    color:black;
+}
+.timer{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+.toggle {
+    background-color: black;
+    color: white;
+}
+.Delete-task{
+    font-size: 16px;
+}
+.To-Do-Section, .Promodo-section {
+    margin-bottom: 20px; /* Added spacing between sections */
+}
+
+#Timer-Display {
+    font-size: 24px; /* Increased font size for timer display */
+    margin-bottom: 10px;
+}
+
+.Promodo-section button {
+    margin: 0 5px; /* Added spacing between timer buttons */
+}
